@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 20px;
+}
+
+em {
+  background-color: aliceblue;
+}
+
+a {
+  color: #0070f3 !important;
+  text-decoration: none !important;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+tool-tag {
+  background-color: rgb(210, 234, 255);
+  border-radius: 5px;
+  padding: 4px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+api-type-tag {
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 4px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.ch-codeblock .ch-code-button {
+  display: none;
+}
+
+.ch-codeblock:hover .ch-code-button {
+  display: block;
+}
+
+.ch-spotlight-sticker {
+  width: 70% !important;
+}

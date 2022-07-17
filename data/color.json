@@ -1,0 +1,233 @@
+[
+  {
+    "color": "black",
+    "code": {
+      "rgba": [255, 255, 255, 1],
+      "hex": "#000"
+    }
+  },
+  {
+    "color": "white",
+    "code": {
+      "rgba": [255, 255, 255, 1],
+      "hex": "#fff"
+    }
+  },
+  {
+    "color": "red",
+    "code": {
+      "rgba": [255, 0, 0, 1],
+      "hex": "#ff0000"
+    }
+  },
+  {
+    "color": "green",
+    "code": {
+      "rgba": [0, 255, 0, 1],
+      "hex": "#00ff00"
+    }
+  },
+  {
+    "color": "blue",
+    "code": {
+      "rgba": [0, 0, 255, 1],
+      "hex": "#0000ff"
+    }
+  },
+  {
+    "color": "yellow",
+    "code": {
+      "rgba": [255, 255, 0, 1],
+      "hex": "#ffff00"
+    }
+  },
+  {
+    "color": "cyan",
+    "code": {
+      "rgba": [0, 255, 255, 1],
+      "hex": "#00ffff"
+    }
+  },
+  {
+    "color": "magenta",
+    "code": {
+      "rgba": [255, 0, 255, 1],
+      "hex": "#ff00ff"
+    }
+  },
+  {
+    "color": "orange",
+    "code": {
+      "rgba": [255, 165, 0, 1],
+      "hex": "#ffa500"
+    }
+  },
+  {
+    "color": "purple",
+    "code": {
+      "rgba": [128, 0, 128, 1],
+      "hex": "#800080"
+    }
+  },
+  {
+    "color": "brown",
+    "code": {
+      "rgba": [165, 42, 42, 1],
+      "hex": "#a52a2a"
+    }
+  },
+  {
+    "color": "gray",
+    "code": {
+      "rgba": [128, 128, 128, 1],
+      "hex": "#808080"
+    }
+  },
+  {
+    "color": "darkgray",
+    "code": {
+      "rgba": [169, 169, 169, 1],
+      "hex": "#a9a9a9"
+    }
+  },
+  {
+    "color": "lightgray",
+    "code": {
+      "rgba": [211, 211, 211, 1],
+      "hex": "#d3d3d3"
+    }
+  },
+  {
+    "color": "pink",
+    "code": {
+      "rgba": [255, 192, 203, 1],
+      "hex": "#ffc0cb"
+    }
+  },
+  {
+    "color": "teal",
+    "code": {
+      "rgba": [0, 128, 128, 1],
+      "hex": "#008080"
+    }
+  },
+  {
+    "color": "navy",
+    "code": {
+      "rgba": [0, 0, 128, 1],
+      "hex": "#000080"
+    }
+  },
+  {
+    "color": "maroon",
+    "code": {
+      "rgba": [128, 0, 0, 1],
+      "hex": "#800000"
+    }
+  },
+  {
+    "color": "olive",
+    "code": {
+      "rgba": [128, 128, 0, 1],
+      "hex": "#808000"
+    }
+  },
+  {
+    "color": "silver",
+    "code": {
+      "rgba": [192, 192, 192, 1],
+      "hex": "#c0c0c0"
+    }
+  },
+  {
+    "color": "aqua",
+    "code": {
+      "rgba": [0, 255, 255, 1],
+      "hex": "#00ffff"
+    }
+  },
+  {
+    "color": "lime",
+    "code": {
+      "rgba": [0, 255, 0, 1],
+      "hex": "#00ff00"
+    }
+  },
+  {
+    "color": "fuchsia",
+    "code": {
+      "rgba": [255, 0, 255, 1],
+      "hex": "#ff00ff"
+    }
+  },
+  {
+    "color": "aquamarine",
+    "code": {
+      "rgba": [127, 255, 212, 1],
+      "hex": "#7fffd4"
+    }
+  },
+  {
+    "color": "chartreuse",
+    "code": {
+      "rgba": [127, 255, 0, 1],
+      "hex": "#7fff00"
+    }
+  },
+  {
+    "color": "gold",
+    "code": {
+      "rgba": [255, 215, 0, 1],
+      "hex": "#ffd700"
+    }
+  },
+  {
+    "color": "orangered",
+    "code": {
+      "rgba": [255, 69, 0, 1],
+      "hex": "#ff4500"
+    }
+  },
+  {
+    "color": "salmon",
+    "code": {
+      "rgba": [250, 128, 114, 1],
+      "hex": "#fa8072"
+    }
+  },
+  {
+    "color": "coral",
+    "code": {
+      "rgba": [255, 127, 80, 1],
+      "hex": "#ff7f50"
+    }
+  },
+  {
+    "color": "palegreen",
+    "code": {
+      "rgba": [152, 251, 152, 1],
+      "hex": "#98fb98"
+    }
+  },
+  {
+    "color": "limegreen",
+    "code": {
+      "rgba": [50, 205, 50, 1],
+      "hex": "#32cd32"
+    }
+  },
+  {
+    "color": "seagreen",
+    "code": {
+      "rgba": [46, 139, 87, 1],
+      "hex": "#2e8b57"
+    }
+  },
+  {
+    "color": "forestgreen",
+    "code": {
+      "rgba": [34, 139, 34, 1],
+      "hex": "#228b22"
+    }
+  }
+]

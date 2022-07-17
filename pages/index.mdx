@@ -1,0 +1,626 @@
+# Public API
+
+## Free and Open Source fake API for testing and prototyping.
+
+---
+
+**Public API is a free and Open Source online REST API that you can use whenever you need some fake data.**
+
+**It can be used to _prototype your application_,
+_test your application_ without the need of a real server,
+for a _demo on [CodeSandbox](https://codesandbox.io/)_, in _code examples on [Stack Overflow](https://stackoverflow.com/)_,
+or simply to _test things locally_.**
+
+---
+
+<CH.Spotlight>
+
+## Try it out
+
+<CH.Code>
+
+```js fetch
+fetch("https://public-api.vercel.app/api/person")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+---
+
+```json Response
+[
+  {
+    "name": "Alice Rojas",
+    "phone": "(104) 194-4167",
+    "email": "quam.vel@hotmail.org",
+    "address": "4288 Ut Rd.",
+    "postalZip": "6213",
+    "region": "Gelderland",
+    "country": "Ukraine"
+  },
+  ...
+]
+```
+
+</CH.Code>
+
+---
+
+Using <tool-tag>[Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)</tool-tag>
+
+<CH.Code>
+
+```js fetch
+
+```
+
+---
+
+```json Response
+
+```
+
+</CH.Code>
+
+---
+
+Using <tool-tag>[Axios](https://axios-http.com/docs/intro)</tool-tag>
+
+<CH.Code>
+
+```js axios
+axios
+  .get("https://public-api.vercel.app/api/person")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+---
+
+```json Response
+
+```
+
+</CH.Code>
+
+---
+
+Using <tool-tag>[XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)</tool-tag>
+
+<CH.Code>
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://public-api.vercel.app/api/person", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+---
+
+```json Response
+
+```
+
+</CH.Code>
+
+---
+
+Using <tool-tag>[jQuery](https://jquery.com/)</tool-tag>
+
+<CH.Code>
+
+```js jQuery
+$.ajax({
+  url: "https://public-api.vercel.app/api/person",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+---
+
+```json Response
+
+```
+
+</CH.Code>
+
+---
+
+Using <tool-tag>[curl](https://curl.se/)</tool-tag>
+
+<CH.Code>
+
+```bash Curl
+curl -X GET "https://public-api.vercel.app/api/person" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+
+```
+
+</CH.Code>
+
+</CH.Spotlight>
+
+---
+
+<CH.Spotlight>
+
+## Available API(s)
+
+<CH.Code>
+
+```js fetch
+fetch("https://public-api.vercel.app/api/person")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+```js axios
+axios
+  .get("https://public-api.vercel.app/api/person")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://public-api.vercel.app/api/person", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+```js jQuery
+$.ajax({
+  url: "https://public-api.vercel.app/api/person",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+```bash Curl
+curl -X GET "https://public-api.vercel.app/api/person" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+[
+  {
+    "name": "Alice Rojas",
+    "phone": "(104) 194-4167",
+    "email": "quam.vel@hotmail.org",
+    "address": "4288 Ut Rd.",
+    "postalZip": "6213",
+    "region": "Gelderland",
+    "country": "Ukraine"
+  },
+  ...
+]
+```
+
+</CH.Code>
+
+---
+
+<api-type-tag>GET</api-type-tag> Person Data
+
+<CH.Code>
+
+```js fetch
+
+```
+
+```js axios
+
+```
+
+```js XMLHttpRequest
+
+```
+
+```js jQuery
+
+```
+
+```bash Curl
+
+```
+
+---
+
+```json Response
+
+```
+
+</CH.Code>
+
+---
+
+<api-type-tag>GET</api-type-tag> Fruit Data
+
+<CH.Code>
+
+```js fetch
+fetch("https://public-api.vercel.app/api/fruit")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+```js axios
+axios
+  .get("https://public-api.vercel.app/api/fruit")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://public-api.vercel.app/api/fruit", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+```js jQuery
+$.ajax({
+  url: "https://public-api.vercel.app/api/fruit",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+```bash Curl
+curl -X GET "https://public-api.vercel.app/api/fruit" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+[
+  {
+    "name": "Apple",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
+    "price": 35
+  },
+  ...
+]
+```
+
+</CH.Code>
+
+---
+
+<api-type-tag>GET</api-type-tag> Country Data
+
+<CH.Code>
+
+```js fetch
+fetch("https://public-api.vercel.app/api/country")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+```js axios
+axios
+  .get("https://public-api.vercel.app/api/country")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://public-api.vercel.app/api/country", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+```js jQuery
+$.ajax({
+  url: "https://public-api.vercel.app/api/country",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+```bash Curl
+curl -X GET "https://public-api.vercel.app/api/country" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+[
+  {
+    "name": "Afghanistan",
+    "code": "AF"
+  },
+  ...
+]
+```
+
+</CH.Code>
+
+---
+
+<api-type-tag>GET</api-type-tag> Color Data
+
+<CH.Code>
+
+```js fetch
+fetch("https://public-api.vercel.app/api/color")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+```js axios
+axios
+  .get("https://public-api.vercel.app/api/color")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://public-api.vercel.app/api/color", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+```js jQuery
+$.ajax({
+  url: "https://public-api.vercel.app/api/color",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+```bash Curl
+curl -X GET "https://public-api.vercel.app/api/color" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+[
+  {
+    "color": "black",
+    "code": {
+      "rgba": [255, 255, 255, 1],
+      "hex": "#000"
+    }
+  },
+  ...
+]
+```
+
+</CH.Code>
+
+---
+
+<api-type-tag>GET</api-type-tag> Employee Data
+
+<CH.Code>
+
+```js fetch
+fetch("https://public-api.vercel.app/api/employee")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+```js axios
+axios
+  .get("https://public-api.vercel.app/api/employee")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://public-api.vercel.app/api/employee", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+```js jQuery
+$.ajax({
+  url: "https://public-api.vercel.app/api/employee",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+```bash Curl
+curl -X GET "https://public-api.vercel.app/api/employee" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+[
+  {
+    "userId": "1",
+    "jobTitleName": "Developer",
+    "firstName": "Romin",
+    "lastName": "Irani",
+    "preferredFullName": "Romin Irani",
+    "employeeCode": "E1",
+    "region": "CA",
+    "phoneNumber": "408-1234567"
+  },
+  ...
+]
+```
+
+</CH.Code>
+
+---
+
+<api-type-tag>GET</api-type-tag> Expense Data
+
+<CH.Code>
+
+```js fetch
+fetch("https://public-api.vercel.app/api/expense")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+```js axios
+axios
+  .get("https://public-api.vercel.app/api/expense")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://public-api.vercel.app/api/expense", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+```js jQuery
+$.ajax({
+  url: "https://public-api.vercel.app/api/expense",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+```bash Curl
+curl -X GET "https://public-api.vercel.app/api/expense" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+[
+  {
+    "WHO": "Joe",
+    "WEEK": [
+      {
+        "NUMBER": 3,
+        "EXPENSE": [
+          {
+            "WHAT": "Beer",
+            "AMOUNT": 18.0
+          },
+          ...
+        ]
+      },
+      ...
+    ]
+  },
+  ...
+]
+```
+
+</CH.Code>
+
+</CH.Spotlight>
+
+---
+
+#### Made with ❤️ and [Codehike](https://codehike.org) by [Codinasion](https://github.com/codinasion)

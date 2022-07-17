@@ -14,7 +14,7 @@ Free and Open Source fake API for testing and prototyping
 
 <br>
 
-> **Note** This repository contains the source code of [public-api.vercel.app](https://public-api.vercel.app/)
+> **Note** This repository contains the source code of [pubapi.vercel.app](https://pubapi.vercel.app/)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
@@ -30,10 +30,10 @@ See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how t
 
 ## Sample API
 
-- [Person Data](https://public-api.vercel.app/api/person)
+- [Person Data](https://pubapi.vercel.app/api/person)
 
   ```js
-  fetch("https://public-api.vercel.app/api/person")
+  fetch("https://pubapi.vercel.app/api/person")
     .then((response) => response.json())
     .catch((error) => console.log(error));
   ```
@@ -53,10 +53,10 @@ See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how t
   ]
   ```
 
-- [Fruit Data](https://public-api.vercel.app/api/fruit)
+- [Fruit Data](https://pubapi.vercel.app/api/fruit)
 
   ```js
-  fetch("https://public-api.vercel.app/api/fruit")
+  fetch("https://pubapi.vercel.app/api/fruit")
     .then((response) => response.json())
     .catch((error) => console.log(error));
   ```
@@ -72,10 +72,10 @@ See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how t
   ]
   ```
 
-- [Country Data](https://public-api.vercel.app/api/country)
+- [Country Data](https://pubapi.vercel.app/api/country)
 
   ```js
-  fetch("https://public-api.vercel.app/api/country")
+  fetch("https://pubapi.vercel.app/api/country")
     .then((response) => response.json())
     .catch((error) => console.log(error));
   ```
@@ -90,10 +90,10 @@ See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how t
   ]
   ```
 
-- [Color Data](https://public-api.vercel.app/api/color)
+- [Color Data](https://pubapi.vercel.app/api/color)
 
   ```js
-  fetch("https://public-api.vercel.app/api/color")
+  fetch("https://pubapi.vercel.app/api/color")
     .then((response) => response.json())
     .catch((error) => console.log(error));
   ```

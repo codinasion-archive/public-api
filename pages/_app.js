@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           key="og-url"
           property="og:url"
-          content={`https://public-api.vercel.app/`}
+          content={`https://pubapi.vercel.app/`}
         />
         <meta key="og-site-name" property="og:site_name" content="Public API" />
         <meta key="og-type" property="og:type" content="website" />

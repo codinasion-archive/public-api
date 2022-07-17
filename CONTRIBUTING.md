@@ -1,6 +1,6 @@
 # Welcome to Public API contributing guide
 
-Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [public-api.vercel.app](https://public-api.vercel.app/) :sparkles:.
+Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [pubapi.vercel.app](https://pubapi.vercel.app/) :sparkles:.
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -77,4 +77,4 @@ When you're finished with the changes, create a pull request, also known as a PR
 
 Congratulations :tada::tada: The Codinasion team thanks you :sparkles:
 
-Once your PR is merged, your contributions will be publicly visible on the [public-api.vercel.app](https://public-api.vercel.app/)
+Once your PR is merged, your contributions will be publicly visible on the [pubapi.vercel.app](https://pubapi.vercel.app/)

@@ -619,6 +619,74 @@ curl -X GET "https://pubapi.vercel.app/api/expense" -H "Content-Type: applicatio
 
 </CH.Code>
 
+---
+
+<api-type-tag>GET</api-type-tag> Todo Data
+
+<CH.Code>
+
+```js fetch
+fetch("https://pubapi.vercel.app/api/todo")
+  .then((response) => response.json())
+  .catch((error) => console.log(error));
+```
+
+```js axios
+axios
+  .get("https://pubapi.vercel.app/api/todo")
+  .then((response) => console.log(response.data))
+  .catch((error) => console.log(error));
+```
+
+```js XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://pubapi.vercel.app/api/todo", true);
+xhr.onload = function (e) {
+  if (xhr.readyState === 4) {
+    if (xhr.status === 200) {
+      console.log(xhr.responseText);
+      var response = JSON.parse(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  }
+};
+xhr.onerror = function (e) {
+  console.error(xhr.statusText);
+};
+xhr.send(null);
+```
+
+```js jQuery
+$.ajax({
+  url: "https://pubapi.vercel.app/api/todo",
+  type: "GET",
+  success: function (response) {
+    console.log(response);
+  },
+});
+```
+
+```bash Curl
+curl -X GET "https://pubapi.vercel.app/api/todo" -H "Content-Type: application/json"
+```
+
+---
+
+```json Response
+[
+  {
+    "id": "1",
+    "title": "Todo 1",
+    "description": "Todo 1 description",
+    "done": false
+  },
+  ...
+]
+```
+
+</CH.Code>
+
 </CH.Spotlight>
 
 ---
